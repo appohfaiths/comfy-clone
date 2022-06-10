@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Home | Comfy</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="navbar-left">
+            <ul>
+              <li class="nav-link"><a href="/index.html">Home</a></li>
+              <li class="nav-link">
+                <a href="/pages/products.html">Products</a>
+              </li>
+              <li class="nav-link"><a href="/pages/about.html">About</a></li>
+            </ul>
+          </div>
+          <div class="navbar-center">
+            <img src="/images/logos/logo-white.svg" alt="" />
+          </div>
+          <div class="navbar-right">
+            <span class="cart-button"
+              ><i class="btn fas fa-shopping-cart"></i
+            ></span>
+          </div>
+        </div>
+      </nav>
+
+      <section class="home-hero">
+        <div class="hero-container">
+          <h1 class="tag-line">Rest, Relax, Unwind</h1>
+          <h2 class="tag-line-two">Embrace your choices - we do</h2>
+          <button class="btn hero-button">Shop Now</button>
+        </div>
+      </section>
+    </header>
+
+    <section class="featured">
+      <h3 class="section-header"><span>/</span> Featured</h3>
+      <div class="featured-products">
+        <div class="featured-product">
+          <img
+            src="/images/products/high-back-bench.jpeg"
+            alt=""
+            class="product-image"
+          />
+          <p class="product-name">High-Back Bench</p>
+          <p class="product-price">$9.99</p>
+        </div>
+        <div class="featured-product">
+          <img
+            src="/images/products/utopia-sofa.jpeg"
+            alt=""
+            class="product-image"
+          />
+          <p class="product-name">Utopia Sofa</p>
+          <p class="product-price">$39.95</p>
+        </div>
+        <div class="featured-product">
+          <img
+            src="/images/products/entertainment center.jpeg"
+            alt=""
+            class="product-image"
+          />
+          <p class="product-name">Entertainment Center</p>
+          <p class="product-price">$29.98</p>
+        </div>
+      </div>
+      <div class="section-button">
+        <button class="btn featured-section-button">All Products</button>
+      </div>
+    </section>
+
+    <section class="sidebar">
+      <a class="btn sidebar-close-button">
+        <i class="fas fa-times"></i>
+      </a>
+      <h3 class="sidebar-title">Your bag</h3>
+      <div class="sidebar-cart"></div>
+      <h3 class="sidebar-title">Total : $0.00</h3>
+      <button class="btn sidebar-checkout-button">Checkout</button>
+    </section>
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>

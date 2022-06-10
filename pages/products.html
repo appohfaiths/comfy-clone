@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="pages navbar">
+        <div class="navbar-container">
+          <div class="navbar-left">
+            <ul>
+              <li class="nav-link"><a href="/index.html">Home</a></li>
+              <li class="nav-link">
+                <a href="/pages/products.html">Products</a>
+              </li>
+              <li class="nav-link"><a href="/pages/about.html">About</a></li>
+            </ul>
+          </div>
+          <div class="navbar-center">
+            <img src="/images/logos/logo-black.svg" alt="" />
+          </div>
+          <div class="navbar-right">
+            <i class="btn cart-button fas fa-shopping-cart"></i>
+          </div>
+        </div>
+      </nav>
+
+      <section class="pages-hero">
+        <h3 class="page-title">Home / Products</h3>
+      </section>
+    </header>
+
+    <div class="products-gallery">
+      <section class="products-filter">
+        <input
+          type="text"
+          name="search"
+          placeholder="Search..."
+          class="search-input"
+        />
+        <ul class="company-filter">
+          <li class="company-filter-link title"><h4>Company</h4></li>
+          <li class="company-filter-link"><a href="">All</a></li>
+          <li class="company-filter-link"><a href="">Ikea</a></li>
+          <li class="company-filter-link"><a href="">Marcos</a></li>
+          <li class="company-filter-link"><a href="">Caressa</a></li>
+          <li class="company-filter-link"><a href="">Liddy</a></li>
+        </ul>
+        <ul class="price-filter">
+          <li class="price-filter-link title"><h4>Title</h4></li>
+          <li><input type="range" min="1" max="80" value="80" /></li>
+          <li><span id="price-range-value">Value: $80</span></li>
+        </ul>
+      </section>
+      <section class="products-display">
+        <div class="featured-products">
+          <div class="featured-product">
+            <img
+              src="/images/products/high-back-bench.jpeg"
+              alt=""
+              class="product-image"
+            />
+            <p class="product-name">High-Back Bench</p>
+            <p class="product-price">$9.99</p>
+          </div>
+          <div class="featured-product">
+            <img
+              src="/images/products/albany-table.jpeg"
+              alt=""
+              class="product-image"
+            />
+            <p class="product-name">Albany Table</p>
+            <p class="product-price">$79.99</p>
+          </div>
+          <div class="featured-product">
+            <img
+              src="/images/products/accent-chair.jpeg"
+              alt=""
+              class="product-image"
+            />
+            <p class="product-name">Accent Chair</p>
+            <p class="product-price">$25.99</p>
+          </div>
+          <div class="featured-product">
+            <img
+              src="/images/products/wooden-table.jpeg"
+              alt=""
+              class="product-image"
+            />
+            <p class="product-name">Wooden Table</p>
+            <p class="product-price">$9.99</p>
+          </div>
+          <div class="featured-product">
+            <img
+              src="/images/products/dining-table.jpeg"
+              alt=""
+              class="product-image"
+            />
+            <p class="product-name">Dining Table</p>
+            <p class="product-price">$39.95</p>
+          </div>
+          <div class="featured-product">
+            <img
+              src="/images/products/sofa-set.jpeg"
+              alt=""
+              class="product-image"
+            />
+            <p class="product-name">Sofa Set</p>
+            <p class="product-price">$29.98</p>
+          </div>
+          <div class="featured-product">
+            <img
+              src="/images/products/modern-shelf.jpeg"
+              alt=""
+              class="product-image"
+            />
+            <p class="product-name">Modern Bookshelf</p>
+            <p class="product-price">$9.99</p>
+          </div>
+          <div class="featured-product">
+            <img
+              src="/images/products/emperor-bed.jpeg"
+              alt=""
+              class="product-image"
+            />
+            <p class="product-name">Emperor Bed</p>
+            <p class="product-price">$29.98</p>
+          </div>
+          <div class="featured-product">
+            <img
+              src="/images/products/utopia-sofa.jpeg"
+              alt=""
+              class="product-image"
+            />
+            <p class="product-name">Utopia Sofa</p>
+            <p class="product-price">$39.95</p>
+          </div>
+          <div class="featured-product">
+            <img
+              src="/images/products/entertainment center.jpeg"
+              alt=""
+              class="product-image"
+            />
+            <p class="product-name">Entertainment Center</p>
+            <p class="product-price">$29.98</p>
+          </div>
+          <div class="featured-product">
+            <img
+              src="/images/products/albany-sectional.jpeg"
+              alt=""
+              class="product-image"
+            />
+            <p class="product-name">Albany Sectional</p>
+            <p class="product-price">$10.99</p>
+          </div>
+          <div class="featured-product">
+            <img
+              src="/images/products/leather-sofa.jpeg"
+              alt=""
+              class="product-image"
+            />
+            <p class="product-name">Leather Sofa</p>
+            <p class="product-price">$9.99</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="sidebar">
+      <a class="btn sidebar-close-button">
+        <i class="fas fa-times"></i>
+      </a>
+      <h3 class="sidebar-title">Your bag</h3>
+      <div class="sidebar-cart"></div>
+      <h3 class="sidebar-title">Total : $0.00</h3>
+      <button class="btn sidebar-checkout-button">Checkout</button>
+    </section>
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>
