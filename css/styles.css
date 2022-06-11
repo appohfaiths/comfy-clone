@@ -249,6 +249,41 @@ span {
   transition: transform 0.3s ease-in-out;
 }
 
-.show {
+.show-sidebar {
   transform: translateX(0px);
+}
+
+/* product controls */
+.product-controls {
+  position: relative;
+}
+
+.product-controls-icons {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#icon-background {
+  background-color: hsl(21deg 62% 45%);
+  border-radius: 50%;
+  color: white;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-icon {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.show-product-controls-icons {
+  z-index: 1;
 }
