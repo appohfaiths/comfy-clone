@@ -67,10 +67,10 @@
             />
             <div class="product-controls-icons">
               <div id="icon-background">
-                <i class="product-icon fas fa-search"></i>
+                <i class="product-icon search fas fa-search"></i>
               </div>
               <div id="icon-background">
-                <i class="product-icon fas fa-shopping-cart"></i>
+                <i class="product-icon cart fas fa-shopping-cart"></i>
               </div>
             </div>
           </div>
@@ -86,10 +86,10 @@
             />
             <div class="product-controls-icons">
               <div id="icon-background">
-                <i class="product-icon fas fa-search"></i>
+                <i class="product-icon search fas fa-search"></i>
               </div>
               <div id="icon-background">
-                <i class="product-icon fas fa-shopping-cart"></i>
+                <i class="product-icon cart fas fa-shopping-cart"></i>
               </div>
             </div>
           </div>
@@ -105,10 +105,10 @@
             />
             <div class="product-controls-icons">
               <div id="icon-background">
-                <i class="product-icon fas fa-search"></i>
+                <i class="product-icon search fas fa-search"></i>
               </div>
               <div id="icon-background">
-                <i class="product-icon fas fa-shopping-cart"></i>
+                <i class="product-icon cart fas fa-shopping-cart"></i>
               </div>
             </div>
           </div>
@@ -121,16 +121,27 @@
       </div>
     </section>
 
-    <section class="sidebar">
-      <a class="btn sidebar-close-button">
-        <i class="fas fa-times"></i>
-      </a>
-      <h3 class="sidebar-title">Your bag</h3>
-      <div class="sidebar-cart"></div>
-      <h3 class="sidebar-title">Total : $0.00</h3>
-      <button class="btn sidebar-checkout-button">Checkout</button>
-    </section>
+    <aside class="sidebar">
+      <div class="sidebar-content">
+        <a class="btn sidebar-close-button">
+          <i class="fas fa-times"></i>
+        </a>
+        <h3 class="sidebar-title">Your bag</h3>
+        <div class="sidebar-cart">
+          <div class="cart-product-image">
+            <img src="" alt="" class="cart-image" />
+          </div>
+          <div class="cart-product-details">
+            <h5 class="cart-product-name">Hello</h5>
+            <p class="cart-product-price">Hi</p>
+            <a href="" class="btn remove-button"></a>
+          </div>
+        </div>
+        <h3 class="sidebar-title">Total : $0.00</h3>
+        <button class="btn sidebar-checkout-button">Checkout</button>
+      </div>
+    </aside>
 
-    <script src="/js/index.js"></script>
+    <script type="module" src="/js/index.js"></script>
   </body>
 </html>
