@@ -319,6 +319,13 @@ span {
   z-index: 1;
 }
 
+/* Product Details Page */
+.product-details-display {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /* Media Queries */
 @media (max-width: 1200px) {
   .featured-products {
